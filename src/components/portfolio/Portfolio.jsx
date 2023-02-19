@@ -1,11 +1,11 @@
 import React from 'react'
 import "./portfolio.css"
 import IMG1 from "../../assets/portfolio1.jpg"
-import IMG2 from "../../assets/portfolio2.jpg"
-import IMG3 from "../../assets/portfolio3.jpg"
-import IMG4 from "../../assets/portfolio4.jpg"
+import IMG2 from "../../assets/portfolio_yourNote.png"
+import IMG3 from "../../assets/portfolio_ToDoList.png"
+import IMG4 from "../../assets/portfolio_DailyJournal.png"
 import IMG5 from "../../assets/portfolio5.png"
-import IMG6 from "../../assets/portfolio6.jpg"
+import IMG6 from "../../assets/portfolio_SimonGame.png"
 
 const data = [
   {
@@ -19,8 +19,8 @@ const data = [
     id: 2,
     image: IMG2,
     title: "yourNote",
-    github: "https://www.github.com/",
-    demo: ""
+    github: "https://github.com/codethat19/yourNote",
+    demo: "https://yournote.onrender.com/"
   },
   {
     id: 3,
@@ -32,9 +32,9 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "yourBlog",
-    github: "https://www.github.com/",
-    demo: ""
+    title: "Daily Journal",
+    github: "https://github.com/codethat19/Daily-Journal",
+    demo: "https://daily-journal-3rnv.onrender.com"
   },
   {
     id: 5,
@@ -47,8 +47,8 @@ const data = [
     id: 6,
     image: IMG6,
     title: "Simon Game",
-    github: "https://www.github.com/",
-    demo: ""
+    github: "https://github.com/codethat19/SimonGame",
+    demo: "https://codethat19.github.io/SimonGame/"
   }
 ]
 
@@ -70,7 +70,7 @@ const Portfolio = () => {
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
                 <a href={github} className='btn' target="_blank">GitHub</a>
-                <a href={demo} className='btn btn-primary' target="_blank">Live Link</a>
+                <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a>
               </div>          
             </article>
           )

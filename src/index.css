@@ -25,8 +25,10 @@
     --container-width-sm: 90%;
 }  */
 :root {
-    --color-bg: #00425A;
-    --color-bg-variant: #109ccf;
+    /* --color-bg: #00425A; */
+    --color-bg: #393E46;
+    /* --color-bg-variant: #109ccf; */
+    --color-bg-variant: #252a31;
     --color-primary: #fcf967;
     --color-primary-variant: #eaf775;
     --color-white: #ffffff;

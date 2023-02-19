@@ -1,6 +1,7 @@
 import React from 'react'
 import "./about.css";
-import ME from "../../assets/me-about.jpg"
+// import ME from "../../assets/me-about.jpg"
+import ME from "../../assets/AR.png"
 import {FiAward} from 'react-icons/fi';
 import {SiJavascript} from "react-icons/si";
 import {HiLightBulb} from "react-icons/hi";
@@ -39,7 +40,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni explicabo dolores autem eius incidunt vitae reprehenderit aliquid esse quisquam quasi in corporis eveniet, hic quod enim ex. Laudantium, itaque amet.
+          Dedicated and efficient full stack developer with 2+ years experience in application layers, presentation layers, and databases. Certified in both Frontend and Backend technologies.
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
