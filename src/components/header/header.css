@@ -69,7 +69,9 @@ header {
     padding: -1.6rem 1.5rem 1.5rem 1.5rem;
 } */
 .me img{
-    background: linear-gradient(var(--color-primary), transparent);
+    /* background: linear-gradient(#f67542, transparent); */
+    /* background: linear-gradient(180deg, rgba(234,190,60,1) 0%, rgba(252,94,146,1) 100%); */
+    background: linear-gradient(146deg, rgba(235,191,61,1) 0%, rgba(251,93,108,1) 100%);
     /* background: linear-gradient(var(--color-primary), transparent); */
     /* width: 22rem;
     height: 34rem;
