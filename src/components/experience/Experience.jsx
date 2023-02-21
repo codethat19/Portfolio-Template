@@ -1,6 +1,9 @@
 import React from 'react'
 import "./experience.css";
 import {BsPatchCheckFill} from "react-icons/bs";
+import  {FaHtml5, FaCss3, FaBootstrap, FaReact, FaNodeJs} from "react-icons/fa";
+import {IoLogoJavascript} from "react-icons/io";
+import {SiJquery, SiExpress, SiMongodb, SiMysql} from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -13,7 +16,7 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <FaHtml5 className='experience__details-icon' />
               <div>
                 <h4>HTML</h4>
                 {/* <small className='text-light'>Experienced</small> */}
@@ -21,35 +24,35 @@ const Experience = () => {
               
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <FaCss3 className='experience__details-icon' />
               <div>
                 <h4>CSS</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <IoLogoJavascript className='experience__details-icon' />
               <div>
                 <h4>JavaScript</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <FaBootstrap className='experience__details-icon' />
               <div>
                 <h4>Bootstrap</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <FaReact className='experience__details-icon' />
               <div>
               <h4>React</h4>
               {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <SiJquery className='experience__details-icon' />
               <div>
               <h4>jQuery</h4>
               {/* <small className='text-light'>Experienced</small> */}
@@ -62,28 +65,28 @@ const Experience = () => {
         <h3>Backend Development</h3>
         <div className="experience__content">
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <FaNodeJs className='experience__details-icon' />
               <div>
               <h4>Node.js</h4>
               {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <SiExpress className='experience__details-icon' />
               <div>
               <h4>Express.js</h4>
               {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <SiMongodb className='experience__details-icon' />
               <div>
               <h4>MongoDB</h4>
               {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <SiMysql className='experience__details-icon' />
               <div>
               <h4>MySQL</h4>
               {/* <small className='text-light'>Experienced</small> */}
