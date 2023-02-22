@@ -4,7 +4,7 @@ import IMG1 from "../../assets/portfolio1.jpg"
 import IMG2 from "../../assets/portfolio_yourNote.png"
 import IMG3 from "../../assets/portfolio_ToDoList.png"
 import IMG4 from "../../assets/portfolio_DailyJournal.png"
-import IMG5 from "../../assets/portfolio5.png"
+import IMG5 from "../../assets/portfolio_WeatherApp.png"
 import IMG6 from "../../assets/portfolio_SimonGame.png"
 
 const data = [
@@ -40,8 +40,8 @@ const data = [
     id: 5,
     image: IMG5,
     title: "Weather App",
-    github: "https://www.github.com/",
-    demo: ""
+    github: "https://github.com/codethat19/Weather-App",
+    demo: "https://weather-app-2dzc.onrender.com"
   },
   {
     id: 6,
