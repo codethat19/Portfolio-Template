@@ -1,6 +1,6 @@
 import React from 'react'
 import "./portfolio.css"
-import IMG1 from "../../assets/portfolio1.jpg"
+import IMG1 from "../../assets/portfolio_myNotes.png"
 import IMG2 from "../../assets/portfolio_yourNote.png"
 import IMG3 from "../../assets/portfolio_ToDoList.png"
 import IMG4 from "../../assets/portfolio_DailyJournal.png"
@@ -11,9 +11,9 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "yourPCBuilder",
-    github: "https://www.github.com/",
-    demo: ""
+    title: "myNotes",
+    github: "https://github.com/codethat19/React-Notes-fullStack",
+    demo: "https://mynotes-w2u3.onrender.com/"
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const data = [
     id: 3,
     image: IMG3,
     title: "To-Do List",
-    github: "https://www.github.com/",
+    github: "https://github.com/codethat19/To-Do-List-React",
     demo: ""
   },
   {
