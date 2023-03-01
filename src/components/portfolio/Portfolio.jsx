@@ -1,7 +1,7 @@
 import React from 'react'
 import "./portfolio.css"
 import IMG1 from "../../assets/portfolio_myNotes.png"
-import IMG2 from "../../assets/portfolio_yourNote.png"
+import IMG2 from "../../assets/portfolio_AiRT.png"
 import IMG3 from "../../assets/portfolio_ToDoList.png"
 import IMG4 from "../../assets/portfolio_DailyJournal.png"
 import IMG5 from "../../assets/portfolio_WeatherApp.png"
@@ -18,9 +18,9 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "yourNote",
-    github: "https://github.com/codethat19/yourNote",
-    demo: "https://yournote.onrender.com/"
+    title: "AiRT",
+    github: "https://github.com/codethat19/AiRT",
+    demo: "https://airt.netlify.app/"
   },
   {
     id: 3,
