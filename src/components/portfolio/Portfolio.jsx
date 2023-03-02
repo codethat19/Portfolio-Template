@@ -2,7 +2,7 @@ import React from 'react'
 import "./portfolio.css"
 import IMG1 from "../../assets/portfolio_myNotes.png"
 import IMG2 from "../../assets/portfolio_AiRT.png"
-import IMG3 from "../../assets/portfolio_ToDoList.png"
+import IMG3 from "../../assets/portfolio_aicodex.png"
 import IMG4 from "../../assets/portfolio_DailyJournal.png"
 import IMG5 from "../../assets/portfolio_WeatherApp.png"
 import IMG6 from "../../assets/portfolio_SimonGame.png"
@@ -25,9 +25,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "To-Do List",
-    github: "https://github.com/codethat19/To-Do-List-React",
-    demo: ""
+    title: "AI CodeX",
+    github: "https://github.com/codethat19/AiCodeX",
+    demo: "https://aicodex-ruddy.vercel.app/"
   },
   {
     id: 4,
