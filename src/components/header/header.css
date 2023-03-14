@@ -90,7 +90,7 @@ header {
     justify-self: center;
     width: 22.5rem;
     height: 22.5rem;
-    animation: profile__animate 8s ease-in-out infinite 1s;
+    animation: profile__animate 5s ease-in-out infinite 1s;
 
 }
 @keyframes profile__animate {
